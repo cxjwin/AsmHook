@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A1D2EA02121435500DF06CE /* AsmHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1D2E9E2121435500DF06CE /* AsmHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A1D2EAD2121436A00DF06CE /* AsmHook_arm64.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D2EA62121436900DF06CE /* AsmHook_arm64.mm */; };
+		2A1D2EAE2121436A00DF06CE /* AsmHook_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1D2EA72121436900DF06CE /* AsmHook_arm.h */; };
+		2A1D2EAF2121436A00DF06CE /* AsmHook_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1D2EA82121436900DF06CE /* AsmHook_arm64.h */; };
+		2A1D2EB02121436A00DF06CE /* AsmHook_x86_64.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D2EA92121436900DF06CE /* AsmHook_x86_64.mm */; };
+		2A1D2EB12121436A00DF06CE /* ARM64Types.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1D2EAA2121436900DF06CE /* ARM64Types.h */; };
+		2A1D2EB22121436A00DF06CE /* AsmHook_arm.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D2EAB2121436900DF06CE /* AsmHook_arm.mm */; };
+		2A1D2EB32121436A00DF06CE /* AsmHook_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1D2EAC2121436A00DF06CE /* AsmHook_x86_64.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A1D2E9B2121435500DF06CE /* AsmHook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AsmHook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1D2E9E2121435500DF06CE /* AsmHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsmHook.h; sourceTree = "<group>"; };
+		2A1D2E9F2121435500DF06CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1D2EA62121436900DF06CE /* AsmHook_arm64.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AsmHook_arm64.mm; sourceTree = "<group>"; };
+		2A1D2EA72121436900DF06CE /* AsmHook_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsmHook_arm.h; sourceTree = "<group>"; };
+		2A1D2EA82121436900DF06CE /* AsmHook_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsmHook_arm64.h; sourceTree = "<group>"; };
+		2A1D2EA92121436900DF06CE /* AsmHook_x86_64.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AsmHook_x86_64.mm; sourceTree = "<group>"; };
+		2A1D2EAA2121436900DF06CE /* ARM64Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARM64Types.h; sourceTree = "<group>"; };
+		2A1D2EAB2121436900DF06CE /* AsmHook_arm.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AsmHook_arm.mm; sourceTree = "<group>"; };
+		2A1D2EAC2121436A00DF06CE /* AsmHook_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsmHook_x86_64.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1D2E972121435500DF06CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A1D2E912121435500DF06CE = {
+			isa = PBXGroup;
+			children = (
+				2A1D2E9D2121435500DF06CE /* AsmHook */,
+				2A1D2E9C2121435500DF06CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A1D2E9C2121435500DF06CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A1D2E9B2121435500DF06CE /* AsmHook.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A1D2E9D2121435500DF06CE /* AsmHook */ = {
+			isa = PBXGroup;
+			children = (
+				2A1D2E9E2121435500DF06CE /* AsmHook.h */,
+				2A1D2EAC2121436A00DF06CE /* AsmHook_x86_64.h */,
+				2A1D2EA92121436900DF06CE /* AsmHook_x86_64.mm */,
+				2A1D2EAA2121436900DF06CE /* ARM64Types.h */,
+				2A1D2EA82121436900DF06CE /* AsmHook_arm64.h */,
+				2A1D2EA62121436900DF06CE /* AsmHook_arm64.mm */,
+				2A1D2EA72121436900DF06CE /* AsmHook_arm.h */,
+				2A1D2EAB2121436900DF06CE /* AsmHook_arm.mm */,
+				2A1D2E9F2121435500DF06CE /* Info.plist */,
+			);
+			path = AsmHook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A1D2E982121435500DF06CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1D2EAF2121436A00DF06CE /* AsmHook_arm64.h in Headers */,
+				2A1D2EB12121436A00DF06CE /* ARM64Types.h in Headers */,
+				2A1D2EAE2121436A00DF06CE /* AsmHook_arm.h in Headers */,
+				2A1D2EB32121436A00DF06CE /* AsmHook_x86_64.h in Headers */,
+				2A1D2EA02121435500DF06CE /* AsmHook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A1D2E9A2121435500DF06CE /* AsmHook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1D2EA32121435500DF06CE /* Build configuration list for PBXNativeTarget "AsmHook" */;
+			buildPhases = (
+				2A1D2E962121435500DF06CE /* Sources */,
+				2A1D2E972121435500DF06CE /* Frameworks */,
+				2A1D2E982121435500DF06CE /* Headers */,
+				2A1D2E992121435500DF06CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsmHook;
+			productName = AsmHook;
+			productReference = 2A1D2E9B2121435500DF06CE /* AsmHook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A1D2E922121435500DF06CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = smart;
+				TargetAttributes = {
+					2A1D2E9A2121435500DF06CE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2A1D2E952121435500DF06CE /* Build configuration list for PBXProject "AsmHook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A1D2E912121435500DF06CE;
+			productRefGroup = 2A1D2E9C2121435500DF06CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A1D2E9A2121435500DF06CE /* AsmHook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A1D2E992121435500DF06CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A1D2E962121435500DF06CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1D2EAD2121436A00DF06CE /* AsmHook_arm64.mm in Sources */,
+				2A1D2EB22121436A00DF06CE /* AsmHook_arm.mm in Sources */,
+				2A1D2EB02121436A00DF06CE /* AsmHook_x86_64.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A1D2EA12121435500DF06CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A1D2EA22121435500DF06CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A1D2EA42121435500DF06CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L9NSMBUZ4N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AsmHook/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smart.AsmHook;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A1D2EA52121435500DF06CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L9NSMBUZ4N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AsmHook/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smart.AsmHook;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A1D2E952121435500DF06CE /* Build configuration list for PBXProject "AsmHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1D2EA12121435500DF06CE /* Debug */,
+				2A1D2EA22121435500DF06CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A1D2EA32121435500DF06CE /* Build configuration list for PBXNativeTarget "AsmHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1D2EA42121435500DF06CE /* Debug */,
+				2A1D2EA52121435500DF06CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A1D2E922121435500DF06CE /* Project object */;
+}
